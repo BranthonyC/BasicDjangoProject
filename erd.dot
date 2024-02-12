@@ -1,0 +1,132 @@
+digraph model_graph {
+  // Dotfile by Django-Extensions graph_models
+  // Created: 2024-02-09 23:29
+  // Cli Options: --include-models Paciente -a -
+
+  fontname = "Roboto"
+  fontsize = 8
+  splines  = true
+  rankdir = "TB"
+
+  node [
+    fontname = "Roboto"
+    fontsize = 8
+    shape = "plaintext"
+  ]
+
+  edge [
+    fontname = "Roboto"
+    fontsize = 8
+  ]
+
+  // Labels
+  subgraph cluster_Paciente {
+    label=<
+          <TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">
+          <TR><TD COLSPAN="2" CELLPADDING="4" ALIGN="CENTER">
+          <FONT FACE="Roboto" COLOR="Black" POINT-SIZE="10">
+          <B>Paciente</B>
+          </FONT>
+          </TD></TR>
+          </TABLE>
+          >
+    color=olivedrab4
+    style="rounded"
+  
+    Paciente_models_Paciente [label=<
+      <TABLE BGCOLOR="white" BORDER="1" CELLBORDER="0" CELLSPACING="0">
+      <TR><TD COLSPAN="2" CELLPADDING="5" ALIGN="CENTER" BGCOLOR="#1b563f">
+      <FONT FACE="Roboto" COLOR="white" POINT-SIZE="10"><B>
+      Paciente
+      </B></FONT></TD></TR>
+    
+    
+      <TR><TD ALIGN="LEFT" BORDER="0">
+      <FONT FACE="Roboto"><B>cui</B></FONT>
+      </TD><TD ALIGN="LEFT">
+      <FONT FACE="Roboto"><B>CharField</B></FONT>
+      </TD></TR>
+    
+    
+    
+      <TR><TD ALIGN="LEFT" BORDER="0">
+      <FONT FACE="Roboto">address</FONT>
+      </TD><TD ALIGN="LEFT">
+      <FONT FACE="Roboto">CharField</FONT>
+      </TD></TR>
+    
+    
+    
+      <TR><TD ALIGN="LEFT" BORDER="0">
+      <FONT FACE="Roboto">age</FONT>
+      </TD><TD ALIGN="LEFT">
+      <FONT FACE="Roboto">IntegerField</FONT>
+      </TD></TR>
+    
+    
+    
+      <TR><TD ALIGN="LEFT" BORDER="0">
+      <FONT FACE="Roboto">city</FONT>
+      </TD><TD ALIGN="LEFT">
+      <FONT FACE="Roboto">CharField</FONT>
+      </TD></TR>
+    
+    
+    
+      <TR><TD ALIGN="LEFT" BORDER="0">
+      <FONT FACE="Roboto">country</FONT>
+      </TD><TD ALIGN="LEFT">
+      <FONT FACE="Roboto">CharField</FONT>
+      </TD></TR>
+    
+    
+    
+      <TR><TD ALIGN="LEFT" BORDER="0">
+      <FONT FACE="Roboto">email</FONT>
+      </TD><TD ALIGN="LEFT">
+      <FONT FACE="Roboto">EmailField</FONT>
+      </TD></TR>
+    
+    
+    
+      <TR><TD ALIGN="LEFT" BORDER="0">
+      <FONT FACE="Roboto">name</FONT>
+      </TD><TD ALIGN="LEFT">
+      <FONT FACE="Roboto">CharField</FONT>
+      </TD></TR>
+    
+    
+    
+      <TR><TD ALIGN="LEFT" BORDER="0">
+      <FONT FACE="Roboto">phone</FONT>
+      </TD><TD ALIGN="LEFT">
+      <FONT FACE="Roboto">CharField</FONT>
+      </TD></TR>
+    
+    
+    
+      <TR><TD ALIGN="LEFT" BORDER="0">
+      <FONT FACE="Roboto">state</FONT>
+      </TD><TD ALIGN="LEFT">
+      <FONT FACE="Roboto">CharField</FONT>
+      </TD></TR>
+    
+    
+    
+      <TR><TD ALIGN="LEFT" BORDER="0">
+      <FONT FACE="Roboto">zipcode</FONT>
+      </TD><TD ALIGN="LEFT">
+      <FONT FACE="Roboto">CharField</FONT>
+      </TD></TR>
+    
+    
+      </TABLE>
+      >]
+
+  }
+
+
+  // Relations
+
+
+}
