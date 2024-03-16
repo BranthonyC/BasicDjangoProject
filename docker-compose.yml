@@ -28,7 +28,9 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/nginx.conf
+      - /var/www/html:/var/www/html
+      # - ./nginx/nginx.conf:/etc/nginx/nginx.conf
                
    
 volumes:
