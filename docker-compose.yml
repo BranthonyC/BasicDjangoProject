@@ -24,7 +24,7 @@ services:
       - db
     
   nginx:
-    image: nginx:latest
+    image: nginx:1.19.0
     ports:
       - 80:80
     volumes:
